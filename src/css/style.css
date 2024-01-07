@@ -16,7 +16,12 @@ body {
 	display: flex;
 	flex-direction: column;
 
-	justify-content: center;
+}
+.wrap{
+	width: 80%;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
 	align-items: center;
 }
 .title {
@@ -45,7 +50,7 @@ body {
 }
 .search {
 	margin-top: 3rem;
-	width: 50%;
+	width: 64%;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -86,7 +91,7 @@ body {
 }
 
 .add-task {
-	width: 50%;
+	width: 64%;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -104,6 +109,8 @@ body {
 	font-weight: 600;
 	font-family: inherit;
 	color: #06051f;
+	max-width: 45ch;
+
 }
 .add-task-btn {
 	padding: 0.2rem 0.5rem;
@@ -173,7 +180,7 @@ body {
 	margin-left: 0.5rem;
 }
 .total-tasks {
-	width: 60%;
+	width: 100%;
 	font-weight: 600;
 	display: flex;
 	justify-content: space-between;
